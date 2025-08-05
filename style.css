@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+header {
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ff9800;
+}
+
+
+.about {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.about img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+
+.skills {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    padding: 5px 0;
+}
+
+
+.projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.project-card {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    background: #fafafa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.project-card img {
+    width: 100%;
+    display: block;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+}
+
+
+.resume {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #e68900;
+}
+
+
+.contact {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
